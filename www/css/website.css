@@ -1,0 +1,142 @@
+html{
+	font-family: Arial;
+	font-size: 11px;
+ margin : 0px;
+ padding : 0px;
+ width : 100%;
+ height: 100%;
+}
+
+
+
+/* ============= start initiator ========================= */
+
+initiator-class{
+
+}
+.login-header{
+height: 23%;
+
+background-color: white;
+-webkit-box-shadow: 1px 1px 1px black;
+}
+	.login-header-title{
+		font-weight : bold;
+		color: red;
+		font-size : small;
+	}
+
+.login-body{
+height: 72%;
+margin : auto;
+background-image : -webkit-gradient(linear, center top, center bottom, from(white), to(#424242));
+}
+	.login-body-title{
+		text-align: center;
+		font-weight : bold;
+		font-size : x-large;
+
+
+	}
+	.login-body-box{
+		margin : auto;
+		width : 280px;
+		height : 220px;
+		padding: 20px;
+		border-radius : 15px;
+		border : 1px solid gray;
+		-webkit-box-shadow : 2px 2px 10px black;
+		background-color : white;
+	}
+		.title-body-box{
+			font-size: large;
+			font-weight : bold;
+			margin-bottom : 10px;
+		}
+		
+		.content-username-password{
+			margin-bottom: 15px;
+		}
+		
+		.title-body-box-username-title , .title-body-box-password-title, .title-body-box-remember-input{
+			font-weight: bold;
+			font-size : small;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			
+		}
+		
+		.content-login-button{
+		margin-top: 10px;
+		}
+		
+		.title-body-box-login-button {
+			display: inline-block;
+			float : left;
+			margin-right : 10px;
+		}
+		.title-body-box-forgot{
+					display: inline-block;
+			float : left;
+			margin-right : 10px;
+			font-weight : bold;
+			font-size : small;
+		}
+.login-footer{
+	background-color: black;
+	font-weight : bold;
+	font-size : small;
+	height: 5%;
+}
+	.login-footer-text{
+		margin-top : 11px;
+		display: inline-block;
+		float : right;
+		color: white;
+	}
+	.login-footer-link{
+		margin-top : 11px;
+		margin-right : 5px;
+		color: red;
+		display: inline-block;
+		float : right;
+	}
+	
+.login-input{
+	width: 100%;
+	-webkit-box-shadow: 1px 1px 1px black;
+	border-radius: 5px;
+}	
+.login-checkbox{
+	border-radius: 5px;
+}
+.login-button{
+	width : 80px;
+	height: 30px;
+	font-weight : bold;
+	color: white;
+	background-color:red;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 1px black;
+	
+}
+b{
+	color: red;
+}
+
+.spinner-content{
+position: absolute;
+background: gray;
+opacity: 0.8;
+top: 0;
+left: 0;
+background-image: url("../js/spinner.gif");
+background-repeat: no-repeat;
+background-position-x: 566px;
+background-position-y: 197px;
+width: 100%;
+height: 100%;
+visibility: hidden;
+}
+/* ============= end initiator ========================= */
+
