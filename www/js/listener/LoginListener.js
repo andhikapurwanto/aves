@@ -29,4 +29,10 @@ Clazz.com.initiator.widget.LoginListener = Clazz.extend(Clazz.Widget,{
 		main.render(container);
 	},	
 	
+	renderAja: function(){
+		var container = $('widget\\:myWidget');
+		var main = new Clazz.com.main.widget.Main();
+		main.render(container);
+	},	
+	
 });

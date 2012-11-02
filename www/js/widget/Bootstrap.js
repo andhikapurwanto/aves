@@ -8,4 +8,5 @@ $(document).ready(function(e) {
 		var initiator = new Clazz.com.initiator.widget.Initiator();
 		initiator.render(container);
 	}
+	
 });
